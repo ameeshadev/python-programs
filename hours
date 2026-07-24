@@ -1,0 +1,9 @@
+def Hours(hours):
+    minutes = hours * 60
+    seconds = hours * 3600
+
+    print("Minutes are:", minutes)
+    print("Seconds are:", seconds)
+
+hours = int(input("Enter hours: "))
+Hours(hours)
